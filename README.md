@@ -17,7 +17,7 @@ The tests were executed using Apache JMeter with the same conditions for both ve
 
 ## Results
 
-### ✅ WebFlux (Reactive)
+### ✅ Reactive Application (Spring WebFlux)
 
 - Average response time: **5 ms**
 - Throughput: **~948 requests/second**
@@ -25,7 +25,7 @@ The tests were executed using Apache JMeter with the same conditions for both ve
 
 ---
 
-### ⚠️ Spring MVC (Blocking)
+### ⚠️ Blocking Application (Spring MVC)
 
 - Average response time: **983 ms**
 - Throughput: **~409 requests/second**
@@ -33,13 +33,22 @@ The tests were executed using Apache JMeter with the same conditions for both ve
 
 ---
 
+### 📸 Performance Evidence (JMeter)
+
+> Results obtained under the same load conditions.
+
+<img width="1329" height="785" alt="comparison" src="https://github.com/user-attachments/assets/bcc4612e-8055-4bef-acfb-c7c038f8742b" />
+
+
+---
+
 # 🔍 Key Insight
 
-Even while performing **database operations**, the reactive version (WebFlux) was significantly faster and more stable than the traditional approach using in-memory data.
+Even under the same test conditions, the reactive approach (WebFlux) significantly outperformed the traditional blocking model.
 
 👉 This shows that:
 
-> **How the application handles concurrency can impact performance more than the type of database used.**
+> **How the application handles concurrency can have a major impact on performance.**
 
 ---
 
