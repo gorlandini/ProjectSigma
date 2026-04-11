@@ -37,7 +37,7 @@ The tests were executed using Apache JMeter with the same conditions for both ve
 
 > Results obtained under the same load conditions.
 
-<img width="1334" height="795" alt="comparison2" src="https://github.com/user-attachments/assets/73060fcb-b5a1-4c38-9b2b-b0d840433a20" />
+<img width="1340" height="806" alt="comparison3" src="https://github.com/user-attachments/assets/e2ebeafd-47fb-43e4-b89b-1f2db3c84728" />
 
 
 ---
