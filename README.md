@@ -1,6 +1,6 @@
 # 🚀 Performance Comparison: WebFlux vs Traditional Spring
 
-> This project was created as part of a technical study to evaluate performance and scalability in modern backend applications.
+> This project was created as part of a proof-of-concept to evaluate performance and scalability in modern backend applications.
 
 This project demonstrates a simple performance comparison between two approaches:
 
